@@ -6,7 +6,21 @@ img {
   width: 100px;
   height: 100px;
 }
-
+.header {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: 10px; 
+}
 .title {
   font-size: 36px;
   font-weight: 900;
